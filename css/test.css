@@ -3,7 +3,7 @@
 }
 
 .box {
-    display: inline;
+    display: inline-block;
     width: 100px;
     height: 100px;
     background-color: burlywood;
@@ -12,7 +12,10 @@
     margin: 10px;
 
 /* padding: 16px 42px 16px 42px;
-
 margin: 0 auto; */
 
+}
+
+.box:nth-child(even) {
+    background-color: gold;
 }
